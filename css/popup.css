@@ -1,0 +1,203 @@
+.pink_font {
+
+    color: #FF7EE2;
+
+}
+
+.wght {
+    font-weight: 700;
+}
+
+
+
+#popup-box {
+    z-index: 1000;
+    height: 22rem;
+    width: 30rem;
+    position: fixed;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+    text-decoration: none;
+}
+#popup-box .close-icon-popup{
+  
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 2.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color:  #FF7EE2;
+    border-radius: 2rem;
+    padding: 0 1rem;
+    color: #ffffff;
+
+}
+#popup-box .close-icon-popup:hover{
+    background-color:#fa50d5
+}
+#popup-box div {
+    margin: 1.7rem;
+}
+
+#popup-box div h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #FF7EE2;
+}
+
+#popup-box div input {
+    padding: .6rem;
+    width: 20rem;
+    margin-left: 1.6rem;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+#popup-box div select {
+    padding: .6rem;
+    width: 20rem;
+    margin-left: 1.6rem;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#popup-box div button {
+    padding: .6rem;
+    width: 10rem;
+    margin-left: 26%;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 0;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #FF7EE2;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+
+#popup-box div button:hover {
+    background-color: #fa50d5;
+    color: rgb(255, 255, 255);
+}
+
+#progress-bar {
+    height: 21rem;
+    width: 30rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+#progress-bar .close-icon-bar{
+    position: absolute;
+    top: .8rem;
+    right: 1.3rem;
+    font-size: 2.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color:  #FF7EE2;
+    border-radius: 2rem;
+    padding: 0 .8rem;
+    color: #ffffff;
+}
+#progress-bar .close-icon-bar:hover{
+    background-color:#fa50d5
+}
+
+#progress-bar div {
+    margin: 1rem 1rem;
+
+}
+
+#progress-bar .name {
+    margin-bottom: 0;
+
+}
+
+#progress-bar div h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #FF7EE2;
+
+}
+
+#progress-bar div p {
+    margin: .6rem;
+    padding: .2rem;
+    font-size: 1.3rem;
+    color: rgb(192, 90, 199);
+
+}
+
+
+#progress-bar-inner {
+    width: 0%;
+    max-width: 24rem;
+    height: 20px;
+    background-color: #FF7EE2;
+    border-radius: 10px;
+    transition: width 5s;
+    margin-top: 0;
+
+}
+
+#game-controls {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 20px;
+    display: none;
+    position: absolute;
+    top: 14rem;
+    left: 14.2rem;
+    flex-direction: row;
+    width: 25rem;
+    z-index: 1000;
+
+}
+
+#game-controls button {
+    padding: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 .6rem;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+    background-color: rgb(192, 90, 199);
+    color: rgb(255, 255, 255);
+}
+
+#game-controls button:hover {
+    background-color: rgb(229, 37, 243);
+    color: rgb(255, 255, 255);
+}

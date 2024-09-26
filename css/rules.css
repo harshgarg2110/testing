@@ -1,0 +1,108 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.popup-container-rules {
+   
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 39rem;
+  height: 35rem;
+  background-color:   rgb(250, 249, 240);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.6rem;
+  padding: 0;
+  z-index: 100;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 3px solid rgb(152, 125, 154);
+}
+
+.popup-rules {
+  background-color: rgb(250, 249, 240);
+  padding: 20px;
+  
+  width: 36rem;
+  height: 34rem;
+  margin: 0;
+  color: #0a0a23;
+  border-radius: 2.6rem;
+  overflow: auto;
+  z-index: 100;
+}
+.popup-rules h2{
+    font-size: 2.3rem;
+    text-align: center;
+    color: rgb(153, 40, 161) ;
+    padding: 1rem;
+    margin: .5rem;
+}
+.popup-rules p{
+    padding: 0;
+    font-size: 1.5rem;
+    margin: .5rem 0;
+    text-align: left;
+    
+    
+}
+
+.popup-rules ul{
+    list-style: none;
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+.popup-rules ul li{
+    margin: .4rem;
+    color: rgb(153, 40, 161);
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+
+    
+}
+
+.popup-rules img{
+    margin: .4rem;
+    padding-left: 5rem;
+}
+
+.close-icon-rules{
+  position: absolute;
+  top: 1rem;
+  right: 4rem;
+  font-size: 3rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: rgb(154, 89, 158);
+  border-radius: 2rem;
+  padding: 0 1rem;
+  color: #ffffff;
+}
+.close-icon-rules:hover{
+    
+  background-color: rgb(153, 40, 161);
+}
+
+#ok-btn {
+  margin: 1rem ;
+  margin-left: 11rem;
+  background-color: rgb(157, 97, 161);
+  color: white;
+  padding: 1.2rem 4rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+#ok-btn:hover {
+  background-color: rgb(153, 40, 161);
+}
